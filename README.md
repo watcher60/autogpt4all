@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/aorumbayev/autogpt4all">
-    <img src="https://bafybeigvns6nvxn4tdmnkzrlrao6ukohxkqzt2uv7zzvdqqlmo2nfvhi6q.ipfs.nftstorage.link">
+    <img src="https://bafkreif7cbmuvhztfdlscnmgi3ob32d6ulkqgbjqy4cff2krth4dynwwhe.ipfs.nftstorage.link">
   </a>
 </div>
 
@@ -14,9 +14,9 @@ AutoGPT4All is a simple bash script that sets up and configures [AutoGPT](https:
 
 ## 🚀 Quickstart
 
-1. Clone this repository.
-2. Run `./autogtp4all.sh` to start the server.
-    - If needed, run `chmod +x autogtp4all.sh` to make the script executable.
+```bash
+git clone https://github.com/aorumbayev/autogpt4all.git && cd autogpt4all && chmod +x autogtp4all.sh && ./autogtp4all.sh
+```
 
 > ❗️ Please note this script has been primarily tested on MacOS with an M1 processor. It should work on Linux and Windows, but it has not been thoroughly tested on these platforms. If not on MacOS install git, goland and make before running the script
 
@@ -41,6 +41,8 @@ Example:
 ```bash
 ./autogtp4all.sh --uninstall
 ```
+
+> To recap the commands a `--help` flag is also available
 
 ## 💡 Notes
 
